@@ -1,0 +1,47 @@
+{
+  "name": "ai-powered-personal-crm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "^20.16.13",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "axios": "^1.7.7",
+    "dns": "^0.1.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "net": "^1.0.2",
+    "next": "^14.2.15",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sequelize": "^6.6.5",
+    "tls": "^0.0.1",
+    "typescript": "^5.6.3"
+  },
+  "description": "Roshan Narayan",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnarayan7/crm.git"
+  },
+  "author": "Roshan Narayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnarayan7/crm/issues"
+  },
+  "homepage": "https://github.com/rnarayan7/crm#readme",
+  "devDependencies": {
+    "@types/pg": "^8.6.1",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.15",
+    "sequelize-cli": "^6.6.2"
+  }
+}
