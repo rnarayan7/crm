@@ -1,5 +1,5 @@
 module.exports = {
-  up: (queryInterface, Sequelize) => {
+  up: (queryInterface, Sequelize) => {  // eslint-disable-line no-unused-vars
     return Promise.all([
       queryInterface.createTable('person', {
         id: {
@@ -56,7 +56,7 @@ module.exports = {
       }),
     ]);
   },
-  down: (queryInterface, Sequelize) => {
+  down: (queryInterface, Sequelize) => {  // eslint-disable-line @typescript-eslint/no-unused-vars
     return Promise.all([
       queryInterface.dropTable('note'),
       queryInterface.dropTable('person'),
