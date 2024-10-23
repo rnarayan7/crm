@@ -13,7 +13,7 @@ interface PersonUpdate {
   email?: string;
 }
 
-interface PersonResponse {
+export interface PersonResponse {
   id: string;
   name: string;
   email: string;

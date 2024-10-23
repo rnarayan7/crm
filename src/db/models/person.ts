@@ -29,6 +29,7 @@ Person.init(
   {
     sequelize,
     modelName: 'Person',
+    tableName: 'person',
     timestamps: true,
   }
 );

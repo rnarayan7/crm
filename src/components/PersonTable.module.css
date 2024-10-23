@@ -1,0 +1,19 @@
+/* PersonTable styles.css */
+
+/* Table Styles */
+.tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableContainer th,
+.tableContainer td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tableContainer th {
+    background-color: #f2f2f2;
+}
+
